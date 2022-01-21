@@ -7,7 +7,7 @@ type ItemCounts = {
 
 export default class TodoCollection {
   private _nextId: number = 1;
-  private _itemMap: Map<number, TodoItem>;
+  protected _itemMap: Map<number, TodoItem>;
   public userName: string;
 
   constructor(userName: string, todoItems: TodoItem[] = []) {
