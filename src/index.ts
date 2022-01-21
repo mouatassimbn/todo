@@ -40,3 +40,5 @@ function promptUser(): void {
       }
     });
 }
+
+promptUser();
